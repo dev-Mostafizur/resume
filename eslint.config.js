@@ -33,6 +33,7 @@ export default [
       'no-unused-vars':'off',
       "react/prop-types": "off",
       "eslint(react-refresh/only-export-components": "off",
+      "eslint(react-refresh/only-export-components)":"off",
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

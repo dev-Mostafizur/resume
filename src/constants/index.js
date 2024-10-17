@@ -117,10 +117,10 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
+      company_name: "Local Market",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2022 - April 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,16 +129,13 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Logo Design",
+      company_name: "Freelancer.com",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "As a logo designer on Freelancer.com, I worked with diverse clients from various industries to create unique, impactful logos that capture their brand identity. Through clear communication and understanding of client needs, I transformed ideas into visually appealing designs. My experience involved balancing creativity with brand requirements, meeting deadlines, and revising designs based on feedback. The platform allowed me to build a professional portfolio, collaborate with international clients, and enhance my design skills by adapting to different project scopes and styles.",
       ],
     },
     {
