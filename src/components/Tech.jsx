@@ -19,4 +19,8 @@ const Tech = () => {
   )
 }
 
-export default SectionWrapper(Tech, "");
+// export default SectionWrapper(Tech, "");
+
+const TechSection = SectionWrapper(Tech, "");
+
+export default TechSection;

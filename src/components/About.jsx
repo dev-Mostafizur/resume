@@ -5,7 +5,7 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utilites/motion';
 import { SectionWrapper } from '../hoc';
-const ServiceCard =({title, index, icon})=>{
+ const ServiceCard =({title, index, icon})=>{
   return(
     <Tilt className = "xs:w-[250px] w-full">
       <motion.div
@@ -31,7 +31,7 @@ const ServiceCard =({title, index, icon})=>{
     </Tilt>
   )
 }
-const About = () => {
+ const About = () => {
   return (
    <>
    <motion.div variants={textVariant ()}>
@@ -54,5 +54,9 @@ const About = () => {
    </>
   )
 }
+const AboutSection = SectionWrapper(About, "about");
 
-export default SectionWrapper (About, "about") 
+export default AboutSection;
+
+
+// export default SectionWrapper (About, "about") 

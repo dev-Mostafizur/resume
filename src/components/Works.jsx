@@ -99,4 +99,8 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "");
+// export default SectionWrapper(Works, "");
+
+const WorksSection = SectionWrapper(Works, "");
+
+export default WorksSection;
